@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase</title>
+    <link rel="stylesheet" href="./assest/stylesheet/login.css">
+</head>
+<body>
+    <main>
+        <h1>Registration Page</h1>
+        <div class="inputs">
+            <input id="fullname" type="text" name="fullName" placeholder="Enter your full name">
+            <input id="email" type="email" name="emailid" placeholder="Enter your Email Id">
+            <input id="username" type="text" name="username" placeholder="Enter your Username">
+            <input id="password" type="password" name="password" placeholder="Enter your password">
+        </div>
+        <div class="buttons">
+            <button onclick="register()" class="signup">Signup</button>
+            <button class="login"><a href="login.html" target="_blank">login</a></button>
+        </div>
+    </main>   
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<script src="./assest/js/index.js"></script>
+</html>

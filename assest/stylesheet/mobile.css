@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+    * {
+      padding: 0px;
+    }
+    .wrapper{
+      z-index: 1000px;
+      max-width: 764px;
+    }
+    .sidebar{
+      width: 30px;
+      height: 100%;
+      /* margin-top: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      border-radius: 0px; */
+      position: absolute;
+      /* overflow: hidden; */
+      transition: all 0.3s ease;
+      /* -webkit-transform: translateZ(0) scale(1); */
+    }
+  }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./assest/stylesheet/login.css">
+</head>
+<body>
+    <h1>Login Page</h1>
+    <div class="inputs">
+        <input id="email" type="email" name="emailid" placeholder="Enter your Email Id">
+        <input id="password" type="password" name="password" placeholder="Enter your password">
+    </div>
+    <div class="buttons">
+        <button onclick="sign()" class="submit">Submit</button>
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<script src="./assests/js/index.js"></script>
+</html>
